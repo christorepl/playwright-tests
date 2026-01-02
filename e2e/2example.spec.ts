@@ -28,5 +28,3 @@ test('playwright title', async ({ page }) => {
 
   await expect(page).toHaveTitle(/Playwright/);
 });
-
-///edit for commit
